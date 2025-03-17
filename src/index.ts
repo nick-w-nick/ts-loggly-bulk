@@ -1,3 +1,4 @@
 import { LogglyClient } from './LogglyClient.js';
 
-export default LogglyClient;
+export type * from './models.js';
+export { LogglyClient };
