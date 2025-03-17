@@ -1,0 +1,46 @@
+{
+  "name": "ts-loggly-bulk",
+  "description": "A TypeScript client implementation for Loggly cloud Logging-as-a-Service API",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "build:watch": "rm -rf dist && tsc --watch",
+    "lint": "echo Linting is not set up yet.",
+    "test": "vitest",
+    "prepublishOnly": "npm run test && npm run lint && npm run build",
+    "preversion": "npm run lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-w-nick/ts-loggly-bulk.git"
+  },
+  "homepage": "https://github.com/nick-w-nick/ts-loggly-bulk#readme",
+  "keywords": [
+    "loggly",
+    "logging",
+    "bulk",
+    "api",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "https://github.com/nick-w-nick",
+  "engines": {
+    "node": ">= 20.0.0"
+  }
+}

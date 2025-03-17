@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "target": "ESNext",
+        "declaration": true,
+        "esModuleInterop": true,
+        "moduleResolution": "nodenext",
+        "sourceMap": true,
+        "outDir": "dist",
+        "declarationDir": "dist/types",
+        "lib": ["ES6"],
+        "strict": true,
+        "isolatedModules": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "skipLibCheck": true,
+    },
+    "include": ["src"],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "vitest.config.ts"
+    ]
+}
