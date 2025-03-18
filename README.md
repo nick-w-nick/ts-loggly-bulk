@@ -125,7 +125,7 @@ client.log('Payment processed', ['payment', 'success'], function (err, result) {
 
 ### Bulk Logging
 
-When `isBulk: true` (default), logs are automatically batched and sent every 5 seconds or when 100 logs accumulate:
+When `isBulk: true` (default), logs are automatically batched and sent on an interval or when the buffer has reached the configured size.
 
 ```ts
 // In bulk mode, logs are automatically batched
