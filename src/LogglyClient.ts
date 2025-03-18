@@ -1,7 +1,7 @@
 import { LogglyConfig, LoggableData, LogglyResponse, LogCallback } from './models.js';
 import { EventEmitter } from 'node:events';
 
-// Maximum event size (1MB)
+// Maximum Loggly event size (1MB)
 const EVENT_SIZE = 1000 * 1000;
 
 /**
