@@ -1,6 +1,8 @@
 # ts-loggly-bulk
 
-[![Version npm](https://img.shields.io/npm/v/ts-loggly-bulk.svg?style=flat-square)](https://www.npmjs.com/package/ts-loggly-bulk)
+[![Version npm](https://img.shields.io/npm/v/ts-loggly-bulk?logo=npm&logoColor=red)](https://www.npmjs.com/package/ts-loggly-bulk)
+[![Downloads npm](https://img.shields.io/npm/dm/ts-loggly-bulk?logo=npm&logoColor=red)](https://www.npmjs.com/package/ts-loggly-bulk)
+
 
 A zero-dependency TypeScript client implementation for Loggly. This is intended to be a drop-in replacement for [node-loggly-bulk](https://github.com/loggly/node-loggly-bulk).
 
