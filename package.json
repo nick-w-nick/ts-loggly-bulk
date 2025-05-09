@@ -1,15 +1,16 @@
 {
   "name": "ts-loggly-bulk",
   "description": "A TypeScript client implementation for Loggly cloud Logging-as-a-Service API",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/index.js",
-      "types": "./dist/types/index.d.ts"
+      "default": "./dist/index.js"
     }
   },
   "scripts": {
